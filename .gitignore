@@ -114,3 +114,16 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# حذف اطلاعات دیتا ست‌های سنگین
+fawiki-latest-pages-articles/*
+logs_large/*
+logs/*
+
+embeddings_tsne.html
+fawiki-latest-pages-articles.xml.bz2
+mirastext_preprocessed.txt
+MirasText.zip
+persian_bert_tiny_output_large_2/*
+MirasText_sample.txt
+persian_bert_tiny_final_model_large_2/*
