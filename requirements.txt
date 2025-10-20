@@ -1,2 +1,22 @@
-tensorflow >= 1.11.0   # CPU Version of TensorFlow.
-# tensorflow-gpu  >= 1.11.0  # GPU version of TensorFlow.
+# Core Python and utilities
+numpy>=2.1.0
+pandas>=2.3.0
+tqdm>=4.67.0
+
+# Machine learning and PyTorch
+torch>=2.1.0
+transformers>=4.45.0
+tokenizers>=0.22.0
+datasets>=2.19.0
+accelerate>=1.10.0
+safetensors>=0.4.0
+
+# Visualization and analysis (for check_model.ipynb)
+matplotlib>=3.9.0
+scikit-learn>=1.5.0
+
+# Optional (used for Wikipedia extraction and preprocessing)
+wikiextractor @ git+https://github.com/attardi/wikiextractor.git@ab8988ebfa9e4557411f3d4c0f4ccda139e18875
+
+# Text processing
+regex>=2024.5.15
